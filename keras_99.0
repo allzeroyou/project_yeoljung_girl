@@ -57,3 +57,5 @@ for each in plot_target:
 plt.legend()
 plt.grid()
 plt.show()
+-----------------------------------------------------------------------------------
+참고 : https://hmkim312.github.io/posts/MNIST_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A1%9C_%ED%95%B4%EB%B3%B4%EB%8A%94_CNN(Convolution_Neral_Network)/
