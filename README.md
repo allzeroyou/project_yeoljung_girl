@@ -1,9 +1,13 @@
 ## 파일 설명
 | 파일명 | 파일 용도 |
 |:--   |:--      |
+| image-generator1.py | image generator 본 파일! by. 수진 |
+| image-generator2.py | image generator 보조 파일! by. 수진 |
+| keras_99.0 | 케라스를 이용한 정확도 향상 코드 by. 해인 |
 | yeoljung_net.py | 열정걸스만의 신경망 by. 다영 |
-| DataAugmentation.py | 열정걸스만의 신경망 by. 다영 |
-| yeoljung_net.py | 열정걸스만의 신경망 by. 다영 |
+| DataAugmentation.py | 이미지 어그멘테이션을 위한 파일(수정필요) by. 다영 |
+| file_name_modify.py | 폴더 내 파일 이름 일괄 변경(수정필요) by. 다영 |
+
 
 ## 참여자(깃헙 계정 넣을 거예요!)
 
@@ -11,6 +15,8 @@
 
 
 ## 파일 구조(수정 예정)
+![image](https://user-images.githubusercontent.com/71822139/171659947-3565f5eb-7b9c-4281-8db4-25868560e750.png)
+
 ```
 8.1 더 깊게 
 __8.1.1 더 깊은 네트워크로 
