@@ -4,7 +4,6 @@
 작성일 : 2022.05.26~31
 기타:
 - 텐서플로의 케라스 이용
-tensorflow version=
 - MNIST 데이터셋으로 이미지 정확도 99.5% 도출
 - log message
 1. Could not load dynamic library 'nvcuda.dll'; dlerror: nvcuda.dll not found
@@ -64,7 +63,7 @@ model = tf.keras.Sequential([
     tf.keras.layers.Dense(units=10, activation='softmax')
 ])
 
-model.compile(loss='categorical_crossentropy', optimizer=tf.optimizers.Adam(lr=0.001), metrics=['accuracy'])
+model.compile(loss='categorical_crossentropy', optimizer=tf.optimizers.Adam(learning_rate=0.001), metrics=['accuracy'])
 model.summary()
 
 model.fit(x_train, y_train, batch_size=100, epochs=10, validation_data=(x_test, y_test))
