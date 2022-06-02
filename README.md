@@ -10,7 +10,9 @@
 
 
 ## 참여자(깃헙 계정 넣을 거예요!)
-
+| 박해인 [Github](https://github.com/femmefatalehaein) | 유다영 [Github](https://github.com/allzeroyou) | 이수진 [Github](https://github.com/Soojin-Lee-01) |
+| :---: | :---: | :---: | 
+|<img width="100" alt="hi" ![hi](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphoto%2Fred-apple-gm495878092-78240015&psig=AOvVaw2SLcxcsPxa4NVHhCHou5jl&ust=1654269289680000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJjXmb6Hj_gCFQAAAAAdAAAAABAJ)> | <img width="100" alt="dy" ![dy](https://www.apple.com/v/mac-mini/o/images/meta/mac-mini_overview__164prubpwpee_og.jpg)>| <img width="100" alt="sj" ![sj](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-pink-select-2021?wid=470&hei=556&fmt=jpeg&qlt=95&.v=1645572315935)> |
 
 
 
