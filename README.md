@@ -9,10 +9,10 @@
 | file_name_modify.py | 폴더 내 파일 이름 일괄 변경(수정필요) by. 다영 |
 
 
-## 참여자(깃헙 계정 넣을 거예요!)
+## Contributor (각자 사진 넣을 거예요!)
 | 박해인 [Github](https://github.com/femmefatalehaein) | 유다영 [Github](https://github.com/allzeroyou) | 이수진 [Github](https://github.com/Soojin-Lee-01) |
 | :---: | :---: | :---: | 
-|![hi](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/apple-watch-s7-og-202203?wid=600&hei=315&fmt=jpeg&qlt=95&.v=1646504979352) | ![dy](https://www.apple.com/newsroom/images/tile-images/Apple_16-inch-MacBook-Pro_111319.jpg.landing-big_2x.jpg)| ![sj](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-pink-select-2021?wid=470&hei=556&fmt=jpeg&qlt=95&.v=1645572315935) |
+|![hi](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/apple-watch-s7-og-202203?wid=600&hei=315&fmt=jpeg&qlt=95&.v=1646504979352) | ![dy](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mac-mini-hero-202011?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1603403462000)| ![sj](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-pink-select-2021?wid=470&hei=556&fmt=jpeg&qlt=95&.v=1645572315935) |
 
 
 
