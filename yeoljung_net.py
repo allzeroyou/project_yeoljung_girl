@@ -52,7 +52,7 @@ model = tf.keras.Sequential([
     tf.keras.layers.MaxPool2D(pool_size=(2,2)),
 
     tf.keras.layers.Conv2D(kernel_size=(3,3), filters=128, padding='same', activation='relu'),
-    tf.keras.layers.Conv2D(kernel_size=(3,3), filters=256, padding='valid', activation='relu'),
+    # tf.keras.layers.Conv2D(kernel_size=(3,3), filters=256, padding='valid', activation='relu'), # 파라미터 수가 약 500개 대라 줄이기 위해 한 줄 주석처리
     tf.keras.layers.MaxPool2D(pool_size=(2,2)),
 
     tf.keras.layers.Flatten(),
@@ -66,7 +66,7 @@ model = tf.keras.Sequential([
 model.compile(loss='categorical_crossentropy', optimizer=tf.optimizers.Adam(learning_rate=0.001), metrics=['accuracy'])
 model.summary()
 
-model.fit(x_train, y_train, batch_size=100, epochs=10, validation_data=(x_test, y_test))
-
+model.fit(x_train, y_train, batch_size=100, epochs=8, validation_data=(x_test, y_test))
+# 에폭 또한 10 => 8개로 학습 시간을 줄임(CPU 사용량 감소를 위함)
 result = model.evaluate(x_test, y_test)
 print("합성곱 신경망을 이용한 이미지 정확도(%): : ", result[1]*100)
