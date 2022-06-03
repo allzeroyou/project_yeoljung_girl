@@ -1,4 +1,16 @@
 ''''
+파일 기능: 이미지 어그멘테이션을 위한 파일
+작성자 : 유다영
+작성일 : 2022.06.02
+기타: 회전, 뒤집기 등 훈련 데이터의 폭을 넓히기 위한 어그멘테이션 기능입니동
+하지만 아직 손 봐야 합니다..
+- 6월 3일 업데이트
+코드봤지만 아직도 왜 1개 파일만 생기는지 모르겠다.
+save 함수를 어떻게 해야 할 듯 함.
+
+- 손 봐야 할 것
+train > 2의 폴더 전체를 돌렸는데, 출력결과는 _rotate.png 파일한개뿐?
+여러 파일이 생기지 않는 이유?
 
 출처: https://github.com/oryondark/hjkim/blob/master/DeepLearning_master/Augmentation_Tutorial/Data%20Augmentation.md
 '''
@@ -85,6 +97,7 @@ def augmente(keyName, rate=None, if_scale=False):
 
         plt.imshow(img)
         plt.show()
+
         return "success"
 
     except Exception as e:
@@ -101,7 +114,9 @@ def data_rotate(saved_dir, data, img, rate, type, saving_enable=False):
         img = cv.warpAffine(img, rotation_matrix, (xLength, yLength))
         # print(img.shape)
         if saving_enable == True:
-            save(saved_dir, data, img, rate, type)
+            i = 0
+            for i in range(10):
+                save(saved_dir, data, img, rate, type)
 
         return "Success"
     except Exception as e:
