@@ -1,0 +1,55 @@
+import numpy as np
+from PIL import Image
+import cv2
+import pandas as pd
+import csv
+import os
+root_dir = 'C:/Users/rmfls/PycharmProjects/pythonProject/Kane/0'
+img_path_list = []
+
+for (root, dirs, files) in os.walk(root_dir):
+    if len(files) > 0:
+        for file_name in files:
+            img_path = root + '/' + file_name
+
+            # 경로에서 \를 모두 /로 바꿔줘야함
+            img_path = img_path.replace('\\', '/')  # \는 \\로 나타내야함
+            img_path_list.append(img_path)
+
+#print(img_path_list[0])
+
+matrix = []
+y=[]
+
+y.append(0) #인덱스대신 (label명)
+for i in range(0,1):
+    img = Image.open(img_path_list[i])
+    np.set_printoptions(threshold=np.inf, linewidth=np.inf)
+    x = np.array(img)
+
+    for i in range(0, 28):
+        for j in range(0, 28):
+            y.append(x[i][j][0])
+
+            # y = x[i][j][0]
+y=np.array(y)
+print(y.shape)
+matrix.append(y)
+matrix = np.array(matrix)
+print(matrix.shape)
+
+#test
+"""a=[1,2,3]
+b=[4,5,6]
+c=[]
+c.append(a)
+c.append(b)
+print(c)}"""
+
+df=pd.DataFrame(matrix)
+df.to_csv("4.csv", header=None, index=['0'])
+f = open('./mnist_test.csv', 'a', newline='')
+wr = csv.writer(f)
+wr.writerow(y)
+
+f.close()
