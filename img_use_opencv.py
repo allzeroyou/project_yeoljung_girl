@@ -7,8 +7,7 @@
 이미지 어그멘테이션이라면 몸서리가 나는걸요?
 저녁먹고 오겠음..
 
-출처: https://pinkwink.kr/1129
-'''
+출처: https://pinkwink.kr/1129'''
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
