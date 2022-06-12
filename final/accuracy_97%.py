@@ -67,8 +67,7 @@ model = keras.Sequential([
 ])
 
 
-# loss는 현재 가중치 세트를 평가하는데 사용한 손실 함수 , optimizer은 최적화 알고리즘, metrics는 평가 척도를 나타냄, 학습률은 0.0002
-#model.compile(optimizer=keras.optimizers.Adam(learning_rate=0.0002), loss='categorical_crossentropy', metrics=['accuracy'])
+# loss는 현재 가중치 세트를 평가하는데 사용한 손실 함수 , optimizer은 최적화 알고리즘, metrics는 평가 척도를 나타냄
 model.compile(loss="categorical_crossentropy", optimizer="adam", metrics=["accuracy"])
 
 model.summary()
