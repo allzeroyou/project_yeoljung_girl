@@ -29,7 +29,7 @@ import os, sys
 
 # image parse in directory
 
-root_dir_path = './dataset/handwriting_number/train/19'  # target images directory
+root_dir_path = '../dataset/handwriting_number/train/19'  # target images directory
 root_dir = os.listdir(root_dir_path)
 
 # search = '.png'
